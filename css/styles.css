@@ -1,0 +1,187 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  margin-left: auto;
+  }
+
+h1, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2,p{
+  font-family: 'Poppins', sans-serif;
+}
+
+p{
+  font-weight: 900;
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+/* Container */
+.container-fluid{
+  padding: 7% 15%;
+}
+.top-col{
+  padding-top: 120px;
+}
+
+/* Sections */
+.colored-section{
+  background-color: #6e85b7;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* navigation bar */
+.navbar{
+  z-index: 1;
+  position: fixed;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #6e85b7;
+  padding: 3px;
+  border-radius: 50px;
+}
+.nav-item{
+  padding: 0 15px;
+}
+.navbar-brand{
+  font-size: 2.25rem;
+  font-weight: bold;
+  padding: 0;
+  margin-left: 20px;
+  text-align: left;
+}
+.navbar-toggler{
+  margin-right: 25px;
+}
+/* Title section */
+#title .container-fluid{
+  padding: 4% 15% 7%;
+  text-align: left;
+  margin-left: 0;
+}
+
+/* Title image */
+.title-image{
+  width: 320px;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 55%;
+  border-radius: 45px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* features section */
+#features{
+  position: relative;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+.feature-box{
+  padding: 5%;
+}
+.emo{
+  font-size: 4.5rem;
+  color: #b2c8df;
+  margin-bottom: 1rem;
+}
+.emo:hover{
+  color: #6e85b7;
+}
+
+/* testimonials section*/
+#testimonials{
+  background-color: #b2c8df;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+.testimonial-image{
+  width: 10%;
+  height: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #b2c8df;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 13%;
+  margin: 20px 20px 50px;
+}
+.card{
+  border-style: solid;
+  margin: 20px 10px;
+}
+
+/* pricing section */
+#pricing{
+  padding: 100px;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+/* call to action */
+
+/* Footer */
+#footer{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 90%;
+}
+
+.social-icon{
+  margin: 20px 10px;
+  font-size: 150%;
+}
+i:hover{
+  color: #b2c8df;
+}
+
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    align: center;
+  }
+}
